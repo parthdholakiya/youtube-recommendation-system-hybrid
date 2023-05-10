@@ -11,3 +11,5 @@ The two main types of recommendation algorithms used in hybrid systems are:
 (2) Collaborative filtering: This algorithm recommends items based on the similarity of the user's preferences with those of other users. For example, if a user has liked movies that other users with similar tastes have also liked, the collaborative filtering algorithm will recommend similar movies to the user.
 
 ![image](https://user-images.githubusercontent.com/94167271/235462664-7eb4da42-3371-445b-97f2-f3908e840636.png)
+
+demo app - https://parthdholakiya-youtube-deploy-app-ux5g7j.streamlit.app/
