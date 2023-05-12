@@ -1,9 +1,6 @@
 # youtube-recommendation-system-hybrid
 The hybrid recommendation system is a special type of system that used data of both collaborative data and content-based data simultaneously which helps to suggest a similar or close item to the users. Combining the two above approaches helps to resolve the big problems in more effective cases sometimes.
 
-
-A hybrid recommendation system is a type of recommendation system that combines two or more different recommendation algorithms to provide more accurate and diverse recommendations to users. The goal of a hybrid recommendation system is to overcome the limitations of single recommendation algorithms by leveraging the strengths of multiple algorithms.
-
 The two main types of recommendation algorithms used in hybrid systems are:
 
 (1) Content-based filtering: This algorithm recommends items based on the similarity of their content to items the user has previously liked or interacted with. For example, if a user has liked movies with action and adventure, the content-based algorithm will recommend similar action and adventure movies.
