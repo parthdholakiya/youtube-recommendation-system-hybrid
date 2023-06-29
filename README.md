@@ -9,4 +9,4 @@ The two main types of recommendation algorithms used in hybrid systems are:
 
 ![image](https://user-images.githubusercontent.com/94167271/235462664-7eb4da42-3371-445b-97f2-f3908e840636.png)
 
-aws app - http://ec2-52-66-244-66.ap-south-1.compute.amazonaws.com:8501/
+demo app -  http://ec2-13-233-144-241.ap-south-1.compute.amazonaws.com:8501/
