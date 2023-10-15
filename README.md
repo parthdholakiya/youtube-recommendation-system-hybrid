@@ -9,6 +9,6 @@ The two main types of recommendation algorithms used in hybrid systems are:
 
 ![image](https://user-images.githubusercontent.com/94167271/235462664-7eb4da42-3371-445b-97f2-f3908e840636.png)
 
-demo app -  http://ec2-3-101-148-124.us-west-1.compute.amazonaws.com:8501/
+demo app -  http://ec2-54-219-96-177.us-west-1.compute.amazonaws.com:8501/
 
 ![Screenshot (438)](https://github.com/parthdholakiya/youtube-recommendation-system-hybrid/assets/94167271/cf1f571f-3bdf-4b51-9999-218d397d6b8e)
