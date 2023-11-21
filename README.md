@@ -1,11 +1,74 @@
-# hybrid youtube-recommendation-system
-The hybrid recommendation system is a special type of system that used data of both collaborative data and content-based data simultaneously which helps to suggest a similar or close item to the users. Combining the two above approaches helps to resolve the big problems in more effective cases sometimes.
+# YouTube Recommendation System
 
-The two main types of recommendation algorithms used in hybrid systems are:
+![YouTube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1200px-YouTube_Logo_2017.svg.png)
 
-(1) Content-based filtering: This algorithm recommends items based on the similarity of their content to items the user has previously liked or interacted with. For example, if a user has liked movies with action and adventure, the content-based algorithm will recommend similar action and adventure movies.
+## Overview
 
-(2) Collaborative filtering: This algorithm recommends items based on the similarity of the user's preferences with those of other users. For example, if a user has liked movies that other users with similar tastes have also liked, the collaborative filtering algorithm will recommend similar movies to the user.
+This project is a hybrid YouTube recommender system designed to suggest videos similar to the one chosen by the user. It combines content-based and collaborative filtering techniques to provide personalized video recommendations. The content-based aspect relies on video tags and uses the K-Nearest Neighbors (KNN) algorithm, while the collaborative filtering component takes into account user preferences, specifically their likes, and utilizes algorithms like KNNBaseline.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Install the required dependencies:
+
+    ```bash
+    pip install streamlit pandas scikit-learn
+    ```
+
+2. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your_username/YouTube-Recommendation-System.git
+    ```
+
+3. Navigate to the project directory:
+
+    ```bash
+    cd YouTube-Recommendation-System
+    ```
+
+4. Run the Streamlit app:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+5. Open your browser and go to [http://localhost:8501](http://localhost:8501) to interact with the recommendation system.
+
+## Usage
+
+1. Choose a video from the dropdown list.
+2. Click the 'Show Recommendation' button to get personalized video recommendations.
+3. Explore and discover new videos that match your interests.
+
+## Project Structure
+
+- `app.py`: Streamlit app script.
+- `smd.pkl`: Serialized file containing necessary data for the recommender system.
+- `new.pkl`: Serialized file containing additional data for the recommender system.
+- `vector.pkl`: Serialized file containing vector data for the recommender system.
+- `indices_map.pkl`: Serialized file containing mapping indices for the recommender system.
+- `KNNBaseline.pkl`: Serialized file containing the trained KNNBaseline model.
+- `KNN_model.pkl`: Serialized file containing the trained KNN model.
+
+## Dependencies
+
+- [Streamlit](https://streamlit.io/)
+- [Pandas](https://pandas.pydata.org/)
+- [scikit-learn](https://scikit-learn.org/)
+
+## About the Creator
+
+**Parth N Dholakiya**
+
+- Email: parthdholakiya180@gmail.com
+
+This project was created as part of the NLP course at Purdue University.
+
+## Acknowledgments
+
+Special thanks to the creators of the [Streamlit](https://streamlit.io/) library and the [scikit-learn](https://scikit-learn.org/) machine learning library for their valuable tools.
 
 ![image](https://user-images.githubusercontent.com/94167271/235462664-7eb4da42-3371-445b-97f2-f3908e840636.png)
 
