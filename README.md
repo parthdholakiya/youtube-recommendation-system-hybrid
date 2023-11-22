@@ -19,7 +19,7 @@ To run the project locally, follow these steps:
 2. Clone the repository:
 
     ```bash
-    git clone https://github.com/your_username/YouTube-Recommendation-System.git
+    git clone https://github.com/parthdholakiya/youtube-recommendation-system-hybrid.git
     ```
 
 3. Navigate to the project directory:
