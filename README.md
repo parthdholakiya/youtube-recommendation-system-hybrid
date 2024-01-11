@@ -44,10 +44,10 @@ To run the project locally, follow these steps:
 
 ## Project Structure
 
-- `app.py`: Streamlit app script.
+- `Hybrid_YouTube Recom_app.py`: Streamlit app script.
 - `smd.pkl`: Serialized file containing necessary data for the recommender system.
 - `new.pkl`: Serialized file containing additional data for the recommender system.
-- `vector.pkl`: Serialized file containing vector data for the recommender system.
+- `Embedding_vector.pkl`: Serialized file containing vector data for the recommender system.
 - `indices_map.pkl`: Serialized file containing mapping indices for the recommender system.
 - `KNNBaseline.pkl`: Serialized file containing the trained KNNBaseline model.
 - `KNN_model.pkl`: Serialized file containing the trained KNN model.
