@@ -31,7 +31,7 @@ To run the project locally, follow these steps:
 4. Run the Streamlit app:
 
     ```bash
-    streamlit run Hybrid_app--KNN.py
+    streamlit run Hybrid_YouTube Recom_app.py
     ```
 
 5. Open your browser and go to [http://localhost:8501](http://localhost:8501) to interact with the recommendation system.
